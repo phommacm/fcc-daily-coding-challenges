@@ -20,7 +20,7 @@ Python/
 
 ## 📝 Table of Contents
 
-- [2025-10-12: Battle of Words](Python/2025-10-12-battle-of-words/README.md)
+- [2025-10-12: Battle of Words](Python/2025-10-12_battle-of-words/README.md)
 <!-- ➕ Add new challenges below as you go -->
 <!-- - [YYYY-MM-DD: Challenge Title](Python/YYYY-MM-DD-challenge-title/README.md) -->
 
