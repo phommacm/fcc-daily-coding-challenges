@@ -71,7 +71,6 @@ def battle(our_team: str, opponent: str) -> str:
 
     if our_score > opp_score:
         return "We win"
-    
     if our_score < opp_score:
         return "We lose"
 
