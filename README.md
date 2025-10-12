@@ -38,6 +38,17 @@ Python/
 - 📚 Maintain a structured, easy-to-navigate record of daily coding challenges.  
 - 📈 Track progress over time with consistent daily practice.
 
+## ⚠️ Disclaimer
+
+The solutions in this repository are **my personal implementations** for practice and learning purposes.  
+
+- They may **not be the most optimal or elegant solutions**.  
+- The main goal is to **train problem-solving skills and improve Python proficiency**.  
+- I may revisit challenges later to **refactor or optimize** the solutions.  
+
+These exercises are meant to **practice coding, algorithmic thinking, and Python**, rather than to provide the *"perfect"* answer.
+
+
 ## 📜 Credits
 
 Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/learn/daily-coding-challenge/archive).
