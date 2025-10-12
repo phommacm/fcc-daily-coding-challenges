@@ -63,7 +63,7 @@ def battle(our_team: str, opponent: str) -> str:
     opp_word_score.append(score)
     score = 0
 
-    for i in enumerate(our_word_score):
+    for i, _ in enumerate(our_word_score):
         if our_word_score[i] > opp_word_score[i]:
             our_score += 1
         elif our_word_score[i] < opp_word_score[i]:
