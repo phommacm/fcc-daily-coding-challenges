@@ -1,4 +1,28 @@
 def battle(our_team: str, opponent: str) -> str:
+    """
+    Determines the winner of a word-by-word battle between two teams.
+
+    Each word's value is calculated as the sum of its letters:
+    - Lowercase letters 'a' to 'z' are worth 1 to 26.
+    - Uppercase letters 'A' to 'Z' double their value (2 to 52).
+
+    Words battle in order: the first word of `our_team` battles
+    the first word of `opponent`, the second battles the second, etc.
+    The team with more winning words is the winner.
+
+    Parameters:
+        our_team (str): A string of words representing our team's sentence.
+        opponent (str): A string of words representing the opposing team's sentence.
+
+    Returns:
+        str: "We win" if our team has more winning words,
+             "We lose" if the opponent has more winning words,
+             "Draw" if both teams have the same number of winning words.
+
+    Example:
+        >>> battle("hello world", "hello word")
+        'We win'
+    """
     lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
     upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     our_score, opp_score, our_word_score, opp_word_score = 0, 0, list(), list()
