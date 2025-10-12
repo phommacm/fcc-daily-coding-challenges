@@ -40,4 +40,4 @@ Python/
 
 ## 📜 Credits
 
-Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/).
+Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/learn/daily-coding-challenge/archive).
