@@ -1,6 +1,9 @@
 # FreeCodeCamp Daily Coding Challenges – Python 🐍
 
 ![Pylint](https://github.com/phommacm/fcc-daily-coding-challenges/actions/workflows/pylint.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.8%20|%203.9%20|%203.10%20|%203.11-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub last commit](https://img.shields.io/github/last-commit/phommacm/fcc-daily-coding-challenges)
 
 A collection of **daily coding exercises** from FreeCodeCamp and **my solutions**, implemented in **Python**.
 
