@@ -1,5 +1,7 @@
 # FreeCodeCamp Daily Coding Challenges – Python 🐍
 
+![Pylint](https://github.com/phommacm/fcc-daily-coding-challenges/actions/workflows/pylint.yml/badge.svg)
+
 A collection of **daily coding exercises** from FreeCodeCamp and **my solutions**, implemented in **Python**.
 
 ## 📁 Repository Structure
