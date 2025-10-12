@@ -1,6 +1,6 @@
 # Battle of Words
 
-## Challenge Description
+## 📝 Challenge Description
 
 Given two sentences representing your team and an opposing team, where each word from your team battles the corresponding word from the opposing team, determine which team wins using the following rules:
 
@@ -21,7 +21,7 @@ Given two sentences representing your team and an opposing team, where each word
 
 ---
 
-## Example
+## 💡 Example
 
 ```python
 our_team = "hello world"
