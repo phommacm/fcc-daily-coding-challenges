@@ -71,10 +71,11 @@ def battle(our_team: str, opponent: str) -> str:
 
     if our_score > opp_score:
         return "We win"
-    elif our_score < opp_score:
+    
+    if our_score < opp_score:
         return "We lose"
-    else:
-        return "Draw"
+
+    return "Draw"
 
 # Tests
 print(battle("hello world", "hello word")) # should return "We win"
