@@ -37,3 +37,7 @@ Python/
 - 💡 Practice and improve Python problem-solving skills.  
 - 📚 Maintain a structured, easy-to-navigate record of daily coding challenges.  
 - 📈 Track progress over time with consistent daily practice.
+
+## 📜 Credits
+
+Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/).
