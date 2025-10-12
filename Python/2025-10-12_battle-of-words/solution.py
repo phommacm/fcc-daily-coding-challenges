@@ -1,3 +1,10 @@
+"""
+Battle of Words Challenge Solution
+
+This module contains the implementation and test cases for the
+"Battle of Words" coding challenge from FreeCodeCamp.
+"""
+
 def battle(our_team: str, opponent: str) -> str:
     """
     Determines the winner of a word-by-word battle between two teams.
