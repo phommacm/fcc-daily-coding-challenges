@@ -32,7 +32,7 @@ def battle(our_team: str, opponent: str) -> str:
     """
     lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
     upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    our_score, opp_score, our_word_score, opp_word_score = 0, 0, list(), list()
+    our_score, opp_score, our_word_score, opp_word_score = 0, 0, [], []
     score, value = 0, 0
 
     for char in our_team:
