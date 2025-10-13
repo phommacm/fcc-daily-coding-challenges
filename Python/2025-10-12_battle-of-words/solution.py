@@ -5,6 +5,33 @@ This module contains the implementation and test cases for the
 "Battle of Words" coding challenge from FreeCodeCamp.
 """
 
+from typing import List
+
+def scoring(sentence: str) -> List:
+    """
+    Calculates the word scores for a given sentence based on letter values.
+
+    Each word's score is determined by summing the values of its letters:
+    - Lowercase letters 'a' to 'z' are worth 1 to 26 points.
+    - Uppercase letters 'A' to 'Z' double their value (2 to 52 points).
+
+    The function returns a list of integer scores corresponding to each word
+    in the sentence, in order.
+
+    Parameters:
+        sentence (str): A string consisting of one or more words.
+
+    Returns:
+        List[int]: A list of numerical scores, one for each word in the sentence.
+
+    Example:
+        >>> scoring("Hello world")
+        [60, 72]
+    """
+    score = [sum((ord(char.lower()) - 96) * (2 if char.isupper() else 1)for char in word) for word in sentence.split()]
+
+    return score
+
 def battle(our_team: str, opponent: str) -> str:
     """
     Determines the winner of a word-by-word battle between two teams.
@@ -30,43 +57,12 @@ def battle(our_team: str, opponent: str) -> str:
         >>> battle("hello world", "hello word")
         'We win'
     """
-    lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
-    upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    our_score, opp_score, our_word_score, opp_word_score = 0, 0, [], []
-    score, value = 0, 0
-
-    for char in our_team:
-        if char == " ":
-            our_word_score.append(score)
-            score = 0
-        elif char in lower_alphabet:
-            value = lower_alphabet.index(char)
-        else:
-            value = upper_alphabet.index(char) * 2
-
-        score += value
-
-    our_word_score.append(score)
-    score = 0
-
-    for char in opponent:
-        if char == " ":
-            opp_word_score.append(score)
-            score = 0
-        elif char in lower_alphabet:
-            value = lower_alphabet.index(char)
-        else:
-            value = upper_alphabet.index(char) * 2
-
-        score += value
-
-    opp_word_score.append(score)
-    score = 0
+    our_score, opp_score, our_word_score, opp_word_score = 0, 0, scoring(our_team), scoring(opponent)
 
     for our_word_value, opp_word_value in zip(our_word_score, opp_word_score):
         if our_word_value > opp_word_value:
             our_score += 1
-        elif our_word_value < opp_word_value :
+        elif our_word_value < opp_word_value:
             opp_score += 1
 
     if our_score > opp_score:
