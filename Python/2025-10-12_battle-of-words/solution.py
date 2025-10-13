@@ -28,7 +28,10 @@ def scoring(sentence: str) -> List:
         >>> scoring("Hello world")
         [60, 72]
     """
-    score = [sum((ord(char.lower()) - 96) * (2 if char.isupper() else 1)for char in word) for word in sentence.split()]
+    score = [
+        sum((ord(char.lower()) - 96) * (2 if char.isupper() else 1)
+            for char in word) for word in sentence.split()
+    ]
 
     return score
 
@@ -67,7 +70,8 @@ def battle(our_team: str, opponent: str) -> str:
         >>> battle("hello world", "world hello")
         'Draw'
     """
-    our_score, opp_score, our_word_score, opp_word_score = 0, 0, scoring(our_team), scoring(opponent)
+    our_score, opp_score, our_word_score, opp_word_score = 0, 0, scoring(
+        our_team), scoring(opponent)
 
     for our_word_value, opp_word_value in zip(our_word_score, opp_word_score):
         if our_word_value > opp_word_value:
