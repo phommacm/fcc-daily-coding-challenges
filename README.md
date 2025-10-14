@@ -26,6 +26,7 @@ scripts/
 
 - [2025-10-13: 24 to 12](scripts/2025-10-13_24-to-12/README.md)
 - [2025-10-12: Battle of Words](scripts/2025-10-12_battle-of-words/README.md)
+- [2025-10-02: Decimal to Binary](scripts/2025-10-02_decimal-to-binary/README.md)
 - [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary-to-decimal/README.md)
 <!-- ➕ Add new challenges below as you go -->
 <!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge-title/README.md) -->
