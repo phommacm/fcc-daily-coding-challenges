@@ -14,7 +14,7 @@ scripts/
 ├── 2025-10-12-battle-of-words/
 │ ├── solution.py # Python solution to the challenge
 │ └── README.md # Challenge description and examples
-├── 2025-10-13-another-challenge/
+├── YYYY-MM-DD-another-challenge/
 │ └── ...
 └── ...
 ```
