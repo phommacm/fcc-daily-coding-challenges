@@ -87,10 +87,10 @@ def battle(our_team: str, opponent: str) -> str:
     return "Draw"
 
 # Tests
-print(battle("hello world", "hello word")) # should return "We win"
-print(battle("Hello world", "hello world")) # should return "We win"
-print(battle("lorem ipsum", "kitty ipsum")) # should return "We lose"
-print(battle("hello world", "world hello")) # should return "Draw"
-print(battle("git checkout", "git switch")) # should return "We win"
+print(battle("hello world", "hello word"))                          # should return "We win"
+print(battle("Hello world", "hello world"))                         # should return "We win"
+print(battle("lorem ipsum", "kitty ipsum"))                         # should return "We lose"
+print(battle("hello world", "world hello"))                         # should return "Draw"
+print(battle("git checkout", "git switch"))                         # should return "We win"
 print(battle("Cheeseburger with fries", "Cheeseburger with Fries")) # should return "We lose"
-print(battle("We must never surrender", "Our team must win")) # should return "Draw"
+print(battle("We must never surrender", "Our team must win"))       # should return "Draw"
