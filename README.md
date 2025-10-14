@@ -10,7 +10,7 @@ A collection of **daily coding exercises** from FreeCodeCamp and **my solutions*
 ## 📁 Repository Structure
 
 ```
-Python/
+scripts/
 ├── 2025-10-12-battle-of-words/
 │ ├── solution.py # Python solution to the challenge
 │ └── README.md # Challenge description and examples
@@ -21,17 +21,16 @@ Python/
 
 - 🗂️ **Date-based folders:** Each challenge folder is named with the date and challenge title for easy navigation.
 - 📄 **Challenge README:** Contains problem description, example inputs/outputs, and any notes.
-- 🧪 **Test cases:** Taken from FreeCodeCamp for validation.
 
 ## 📝 Table of Contents
 
-- [2025-10-12: Battle of Words](Python/2025-10-12_battle-of-words/README.md)
+- [2025-10-12: Battle of Words](scripts/2025-10-12_battle-of-words/README.md)
 <!-- ➕ Add new challenges below as you go -->
-<!-- - [YYYY-MM-DD: Challenge Title](Python/YYYY-MM-DD-challenge-title/README.md) -->
+<!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge-title/README.md) -->
 
 ## 🚀 How to Explore
 
-1. Navigate to the `Python/` folder.  
+1. Navigate to the `scripts/` folder.  
 2. Open a challenge folder (e.g., `2025-10-12-battle-of-words/`).  
 3. Read the `README.md` to understand the challenge.  
 4. Run `solution.py` to see the solution in action.  
