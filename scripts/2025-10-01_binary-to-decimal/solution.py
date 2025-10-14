@@ -9,7 +9,7 @@ def to_decimal(binary: str) -> int:
     Convert a binary string into its decimal (base-10) integer equivalent.
 
     Args:
-        binary (str): A string representing a binary number (e.g., "101").
+        binary (str): A string representing a binary number (e.g., "10").
 
     Returns:
         int: The decimal (base-10) value of the binary number.
@@ -24,3 +24,9 @@ def to_decimal(binary: str) -> int:
     total = sum(int(num) * 2**i for i, num in enumerate(binary[::-1]))
 
     return total
+
+# Tests
+print(to_decimal("101"))     # should return 5
+print(to_decimal("1010"))    # should return 10
+print(to_decimal("10010"))   # should return 18
+print(to_decimal("1010101")) # should return 85
