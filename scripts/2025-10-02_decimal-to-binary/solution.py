@@ -29,9 +29,9 @@ def to_binary(decimal):
     rests = []
 
     while decimal != 0:
-      buffer = decimal % 2
-      rests.append(buffer)
-      decimal //= 2
+        buffer = decimal % 2
+        rests.append(buffer)
+        decimal //= 2
 
     binary = "".join([str(num) for num in rests])[::-1]
 
