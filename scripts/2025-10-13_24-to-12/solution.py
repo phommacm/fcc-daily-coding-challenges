@@ -40,7 +40,7 @@ def to_12(time_str: str) -> str:
 
     if hour24 < 12 or hour24 == 24:
         meridiem = "AM"
-        if hour24 == 24 or hour24 == 0:
+        if hour24 in (24, 0):
             hour24 = 12
     else:
         hour24 -= 12
