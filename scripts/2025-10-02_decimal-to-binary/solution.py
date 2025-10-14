@@ -25,7 +25,7 @@ def to_binary(decimal):
     """
     if decimal == 0:
         return "0"
-    
+
     rests = []
 
     while decimal != 0:
