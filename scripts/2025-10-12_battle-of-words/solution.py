@@ -7,7 +7,7 @@ This module contains the implementation and test cases for the
 
 from typing import List
 
-def scoring(sentence: str) -> List:
+def scoring(sentence: str) -> List[int]:
     """
     Calculates the word scores for a given sentence based on letter values.
 
