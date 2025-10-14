@@ -23,6 +23,9 @@ def to_binary(decimal):
         >>> to_binary(0)
         '0'
     """
+    if decimal == 0:
+        return "0"
+    
     rests = []
 
     while decimal != 0:
