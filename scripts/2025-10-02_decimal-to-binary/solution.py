@@ -4,6 +4,7 @@ Decimal to Binary
 A simple module for converting non-negative integers (base-10) into their
 binary (base-2) string representations.
 """
+
 def to_binary(decimal):
     """
     Convert a non-negative integer into its binary (base-2) string representation.

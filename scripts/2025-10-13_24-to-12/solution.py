@@ -9,6 +9,7 @@ Example:
     >>> to_12("1455")
     '2:55 PM'
 """
+
 def to_12(time_str: str) -> str:
     """
     Converts a 24-hour format time string to a 12-hour format string.
