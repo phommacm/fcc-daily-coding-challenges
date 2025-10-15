@@ -60,3 +60,7 @@ These exercises are meant to **practice coding, algorithmic thinking, and Python
 ## 📜 Credits
 
 Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/learn/daily-coding-challenge/archive).
+
+## ⚖️ License
+
+MIT © Matthieu Phommachanh
