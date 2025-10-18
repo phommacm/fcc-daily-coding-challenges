@@ -24,6 +24,6 @@ if [[ -d "$folder" ]]; then
 else
     mkdir -p "$folder"
     touch "${BASE_DIR}/${date}_${challenge}/README.md"
+    touch "${BASE_DIR}/${date}_${challenge}/solution.py"
     echo "→ Successfully created: $folder"
-    echo "→ Successfully created an empty README.md"
 fi
