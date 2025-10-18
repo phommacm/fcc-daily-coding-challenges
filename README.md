@@ -24,15 +24,15 @@ scripts/
 
 ## 📝 Table of Contents
 
-- [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone-number-formatter/README.md)
-- [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary-to-decimal/README.md)
-- [2025-10-02: Decimal to Binary](scripts/2025-10-02_decimal-to-binary/README.md)
-- [2025-10-12: Battle of Words](scripts/2025-10-12_battle-of-words/README.md)
-- [2025-10-13: 24 to 12](scripts/2025-10-13_24-to-12/README.md)
-- [2025-10-15: HTML Tag Stripper](scripts/2025-10-15_html-tag-stripper/README.md)
-- [2025-10-17: Credit Card Masker](scripts/2025-10-17_credit-card-masker/README.md)
+- [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone_number_formatter/README.md)
+- [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary_to_decimal/README.md)
+- [2025-10-02: Decimal to Binary](scripts/2025-10-02_decimal_to_binary/README.md)
+- [2025-10-12: Battle of Words](scripts/2025-10-12_battle_of_words/README.md)
+- [2025-10-13: 24 to 12](scripts/2025-10-13_24_to_12/README.md)
+- [2025-10-15: HTML Tag Stripper](scripts/2025-10-15_html_tag_stripper/README.md)
+- [2025-10-17: Credit Card Masker](scripts/2025-10-17_credit_card_masker/README.md)
 <!-- ➕ Add new challenges below as you go -->
-<!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge-title/README.md) -->
+<!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge_title/README.md) -->
 
 ## 🚀 How to Explore
 
