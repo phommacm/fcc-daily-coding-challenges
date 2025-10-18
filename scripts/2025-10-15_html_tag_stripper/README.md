@@ -1,4 +1,5 @@
 # HTML Tag Stripper
+[View Original Challenge](https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-15)
 
 ## 📝 Challenge Description
 

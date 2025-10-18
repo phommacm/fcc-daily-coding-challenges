@@ -1,4 +1,5 @@
 # 24 to 12
+[View Original Challenge](https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-13)
 
 ## 📝 Challenge Description
 

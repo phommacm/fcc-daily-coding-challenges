@@ -1,4 +1,5 @@
 # Phone Number Formatter
+[View Original Challenge](https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-30)
 
 ## 📝 Challenge Description
 

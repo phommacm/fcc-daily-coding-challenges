@@ -1,4 +1,5 @@
 # Binary to Decimal
+[View Original Challenge](https://www.freecodecamp.org/learn/daily-coding-challenge/2025-10-01)
 
 ## 📝 Challenge Description
 
