@@ -29,7 +29,7 @@ scripts/
 - [2025-10-12: Battle of Words](scripts/2025-10-12_battle-of-words/README.md)
 - [2025-10-13: 24 to 12](scripts/2025-10-13_24-to-12/README.md)
 - [2025-10-15: HTML Tag Stripper](scripts/2025-10-15_html-tag-stripper/README.md)
-- [2025-10-17: Credit Card Masker](scripts/2025-10-15_credit-card-masker/README.md)
+- [2025-10-17: Credit Card Masker](scripts/2025-10-17_credit-card-masker/README.md)
 <!-- ➕ Add new challenges below as you go -->
 <!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge-title/README.md) -->
 
