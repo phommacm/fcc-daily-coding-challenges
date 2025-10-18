@@ -11,10 +11,10 @@ A collection of **daily coding exercises** from FreeCodeCamp and **my solutions*
 
 ```
 scripts/
-├── 2025-10-12-battle-of-words/
+├── 2025-10-12_battle_of_words/
 │ ├── solution.py # Python solution to the challenge
 │ └── README.md # Challenge description and examples
-├── YYYY-MM-DD-another-challenge/
+├── YYYY-MM-DD_another_challenge/
 │ └── ...
 └── ...
 ```
