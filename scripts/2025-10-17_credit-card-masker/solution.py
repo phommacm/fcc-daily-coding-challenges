@@ -5,7 +5,7 @@ This module provides a utility function to mask credit card numbers, revealing
 only the last four digits while preserving the original formatting (spaces or
 hyphens).
 """
-def mask(card):
+def mask(card: str) -> str:
     """
     Mask a credit card number, keeping only the last four digits visible.
 
