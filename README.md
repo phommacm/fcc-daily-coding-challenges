@@ -37,7 +37,7 @@ scripts/
 ## 🚀 How to Explore
 
 1. Navigate to the `scripts/` folder.  
-2. Open a challenge folder (e.g., `2025-10-12-battle-of-words/`).  
+2. Open a challenge folder (e.g., `2025-10-12_battle_of_words/`).  
 3. Read the `README.md` to understand the challenge.  
 4. Run `solution.py` to see the solution in action.  
 5. Review test cases for validation.
