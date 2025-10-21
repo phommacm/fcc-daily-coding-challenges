@@ -7,7 +7,7 @@
 
 A collection of **daily coding exercises** from FreeCodeCamp and **my solutions**, implemented in **Python**.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 scripts/
@@ -22,7 +22,7 @@ scripts/
 - 🗂️ **Date-based folders:** Each challenge folder is named with the date and challenge title for easy navigation.
 - 📄 **Challenge README:** Contains problem description, example inputs/outputs, and any notes.
 
-## 📝 Table of Contents
+## Table of Contents
 
 - [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone_number_formatter/README.md)
 - [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary_to_decimal/README.md)
@@ -34,7 +34,7 @@ scripts/
 <!-- ➕ Add new challenges below as you go -->
 <!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge_title/README.md) -->
 
-## 🚀 How to Explore
+## How to Explore
 
 1. Navigate to the `scripts/` folder.  
 2. Open a challenge folder (e.g., `2025-10-12_battle_of_words/`).  
@@ -42,13 +42,13 @@ scripts/
 4. Run `solution.py` to see the solution in action.  
 5. Review test cases for validation.
 
-## 🎯 Purpose
+## Purpose
 
 - 💡 Practice and improve Python problem-solving skills.  
 - 📚 Maintain a structured, easy-to-navigate record of daily coding challenges.  
 - 📈 Track progress over time with consistent daily practice.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 The solutions in this repository are **my personal implementations** for practice and learning purposes.  
 
@@ -59,10 +59,10 @@ The solutions in this repository are **my personal implementations** for practic
 These exercises are meant to **practice coding, algorithmic thinking, and Python**, rather than to provide the *"perfect"* answer.
 
 
-## 📜 Credits
+## Credits
 
 Challenges and test cases are provided by [FreeCodeCamp](https://www.freecodecamp.org/learn/daily-coding-challenge/archive).
 
-## ⚖️ License
+## License
 
 MIT © Matthieu Phommachanh
