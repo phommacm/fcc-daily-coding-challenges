@@ -24,6 +24,7 @@ scripts/
 
 ## Table of Contents
 
+- [2025-09-10: Array Diff](scripts/2025-09-10_array_diff/README.md)
 - [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone_number_formatter/README.md)
 - [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary_to_decimal/README.md)
 - [2025-10-02: Decimal to Binary](scripts/2025-10-02_decimal_to_binary/README.md)
