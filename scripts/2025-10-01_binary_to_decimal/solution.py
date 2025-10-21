@@ -4,6 +4,7 @@ Binary to Decimal
 A simple module for converting binary numbers (as strings) into their decimal
 (integer) equivalents.
 """
+
 def to_decimal(binary: str) -> int:
     """
     Convert a binary string into its decimal (base-10) integer equivalent.
