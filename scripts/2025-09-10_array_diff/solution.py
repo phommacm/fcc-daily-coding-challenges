@@ -32,6 +32,6 @@ def array_diff(arr1: List[str], arr2: List[str]) -> List[str]:
 print(array_diff(["apple", "banana"], ["apple", "banana", "cherry"]))
 print(array_diff(["apple", "banana", "cherry"], ["apple", "banana"]))
 print(array_diff(["one", "two", "three", "four", "six"], ["one", "three", "eight"]))
-print(array_diff(["two", "four", "five", "eight"], 
+print(array_diff(["two", "four", "five", "eight"],
                  ["one", "two", "three", "four", "seven", "eight"]))
 print(array_diff(["I", "like", "freeCodeCamp"], ["I", "like", "rocks"]))
