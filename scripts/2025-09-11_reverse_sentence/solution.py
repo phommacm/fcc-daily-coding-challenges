@@ -1,5 +1,5 @@
 """
-Reverse Sentence Utility
+Reverse Sentence
 
 This module provides a function that reverses the order of words in a sentence.
 Extra spaces in the input are ignored, and the returned string contains only
