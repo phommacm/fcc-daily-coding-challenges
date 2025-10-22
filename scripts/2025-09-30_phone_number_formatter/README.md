@@ -7,7 +7,6 @@ Given a string of digits, return the string formatted as a phone number using th
 
 `"+D (DDD) DDD-DDDD"`
 
-
 1. The input will contain **ten digits**, where:
    - The **first digit** represents the country code.
    - The **next three digits** represent the area code.
