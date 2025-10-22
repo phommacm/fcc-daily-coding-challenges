@@ -1,5 +1,5 @@
 """
-Array difference utility
+Array Diff
 
 Provides a function to compute the symmetric difference between two lists of strings:
 the values that appear in exactly one of the two input lists. The result is returned
