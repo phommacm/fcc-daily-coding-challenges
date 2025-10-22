@@ -25,3 +25,10 @@ def reverse_sentence(sentence: str) -> str:
     """
     sentence = " ".join([word for word in sentence.split()[::-1]])
     return sentence
+
+if __name__ == "__main__":
+    assert reverse_sentence("world hello") == "hello world"
+    assert reverse_sentence("push commit git") == "git commit push"
+    assert reverse_sentence("npm  install   apt    sudo") == "sudo apt install npm"
+    assert reverse_sentence("import    default   function  export") == "export function default import"
+    print("All tests passed!")
