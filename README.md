@@ -25,6 +25,7 @@ scripts/
 ## Table of Contents
 
 - [2025-09-10: Array Diff](scripts/2025-09-10_array_diff/README.md)
+- [2025-09-11: Reverse Sentence](scripts/2025-09-11_reverse_sentence/README.md)
 - [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone_number_formatter/README.md)
 - [2025-10-01: Binary to Decimal](scripts/2025-10-01_binary_to_decimal/README.md)
 - [2025-10-02: Decimal to Binary](scripts/2025-10-02_decimal_to_binary/README.md)
@@ -58,7 +59,6 @@ The solutions in this repository are **my personal implementations** for practic
 - I may revisit challenges later to **refactor or optimize** the solutions.  
 
 These exercises are meant to **practice coding, algorithmic thinking, and Python**, rather than to provide the *"perfect"* answer.
-
 
 ## Credits
 
