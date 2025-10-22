@@ -23,7 +23,7 @@ def reverse_sentence(sentence: str) -> str:
         >>> reverse_sentence("world hello")
         'hello world'
     """
-    sentence = " ".join([word for word in sentence.split()[::-1]])
+    sentence = " ".join(sentence.split()[::-1])
     return sentence
 
 if __name__ == "__main__":
