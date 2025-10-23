@@ -30,11 +30,11 @@ def all_unique(s: str) -> bool:
     return len(s) == len(set(s))
 
 if __name__ == "__main__":
-    assert all_unique("abc") == True
-    assert all_unique("aA") == True
-    assert all_unique("QwErTy123!@") == True
-    assert all_unique("~!@#$%^&*()_+") == True
-    assert all_unique("hello") == False
-    assert all_unique("freeCodeCamp") == False
-    assert all_unique("!@#*$%^&*()aA") == False
+    assert all_unique("abc")
+    assert all_unique("aA")
+    assert all_unique("QwErTy123!@")
+    assert all_unique("~!@#$%^&*()_+")
+    assert all_unique("hello")
+    assert all_unique("freeCodeCamp")
+    assert all_unique("!@#*$%^&*()aA")
     print("All tests passed!")
