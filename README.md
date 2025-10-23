@@ -24,6 +24,7 @@ scripts/
 
 ## Table of Contents
 
+- [2025-09-09: Unique Characters](scripts/2025-09-09_unique_characters/README.md)
 - [2025-09-10: Array Diff](scripts/2025-09-10_array_diff/README.md)
 - [2025-09-11: Reverse Sentence](scripts/2025-09-11_reverse_sentence/README.md)
 - [2025-09-30: Phone Number Formatter](scripts/2025-09-30_phone_number_formatter/README.md)
