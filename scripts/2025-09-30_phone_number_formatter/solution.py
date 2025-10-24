@@ -32,6 +32,7 @@ def format_number(number: str) -> str:
     """
     return f"+{number[0]} ({number[1:4]}) {number[4:7]}-{number[7:]}"
 
-# Tests
-print(format_number("05552340182"))  # returns "****-****-****-1117"
-print(format_number("15554354792"))  # returns "****-****-****-0010"
+if __name__ == "__main__":
+    assert format_number("05552340182") == "+0 (555) 234-0182"
+    assert format_number("15554354792") == "+1 (555) 435-4792"
+    print("All tests passed!")
