@@ -51,9 +51,10 @@ def to_12(time_str: str) -> str:
 
     return time12
 
-# Tests
-print(to_12("1124")) # should return "11:24 AM"
-print(to_12("0900")) # should return "9:00 AM"
-print(to_12("1455")) # should return "2:55 PM"
-print(to_12("2346")) # should return "11:46 PM"
-print(to_12("0030")) # should return "12:30 AM"
+if __name__ == "__main__":
+    assert to_12("1124") == "11:24 AM"
+    assert to_12("0900") == "9:00 AM"
+    assert to_12("1455") == "2:55 PM"
+    assert to_12("2346") == "11:46 PM"
+    assert to_12("0030") == "12:30 AM"
+    print("All tests passed!")
