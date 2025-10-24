@@ -32,5 +32,5 @@ Given a string of digits, return the string formatted as a phone number using th
 ## 💡 Example
 
 ```python
-format_number("18005551234")  # returns "+1 (800) 555-1234"
-format_number("21255598761")   # returns "+2 (125) 559-8761"
+format_number("18005551234") # returns "+1 (800) 555-1234"
+format_number("21255598761") # returns "+2 (125) 559-8761"
