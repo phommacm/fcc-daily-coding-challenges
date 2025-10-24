@@ -3,7 +3,7 @@
 
 ## 📝 Challenge Description
 
-Given a string of digits, return the string formatted as a phone number using the pattern:
+Given a string of eleven digits, return the string formatted as a phone number using the pattern:
 
 `"+D (DDD) DDD-DDDD"`
 
