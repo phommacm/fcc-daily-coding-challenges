@@ -7,7 +7,7 @@ Given a string of eleven digits, return the string formatted as a phone number u
 
 `"+D (DDD) DDD-DDDD"`
 
-1. The input will contain **ten digits**, where:
+1. The input will contain **eleven digits**, where:
    - The **first digit** represents the country code.
    - The **next three digits** represent the area code.
    - The **next three digits** represent the central office code.
