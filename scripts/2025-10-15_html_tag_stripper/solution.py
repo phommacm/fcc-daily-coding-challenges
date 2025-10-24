@@ -31,8 +31,9 @@ def strip_tags(html: str) -> str:
     """
     return re.sub("<.*?>", "", html)
 
-# Tests
-print(strip_tags('<a href="#">Click here</a>'))           # returns "Click here"
-print(strip_tags('<div><p>Hello <b>World</b></p></div>')) # returns "Hello World"
-print(strip_tags('<img alt="x"/>No image shown'))         # returns "No image shown"
-print(strip_tags('Plain text with no tags'))              # returns "Plain text with no tags"
+if __name__ == "__main__":
+    assert strip_tags('<a href="#">Click here</a>') == "Click here"
+    assert strip_tags('<div><p>Hello <b>World</b></p></div>') == "Hello World"
+    assert strip_tags('<img alt="x"/>No image shown') == "No image shown"
+    assert strip_tags('Plain text with no tags') == "Plain text with no tags"
+    print("All tests passed!")
