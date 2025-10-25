@@ -26,8 +26,9 @@ def to_decimal(binary: str) -> int:
 
     return total
 
-# Tests
-print(to_decimal("101"))     # should return 5
-print(to_decimal("1010"))    # should return 10
-print(to_decimal("10010"))   # should return 18
-print(to_decimal("1010101")) # should return 85
+if __name__ == "__main__":
+    assert to_decimal("101") == 5
+    assert to_decimal("1010") == 10
+    assert to_decimal("10010") == 18
+    assert to_decimal("1010101") == 85
+    print("All tests passed!")
