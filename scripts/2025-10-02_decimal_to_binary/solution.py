@@ -38,8 +38,9 @@ def to_binary(decimal: int) -> str:
 
     return binary
 
-# Tests
-print(to_binary(5))  # should return "101"
-print(to_binary(12)) # should return "1100"
-print(to_binary(50)) # should return "110010"
-print(to_binary(99)) # should return "1100011"
+if __name__ == "__main__":
+    assert to_binary(5) == "101"
+    assert to_binary(12) == "1100"
+    assert to_binary(50) == "110010"
+    assert to_binary(99) == "1100011"
+    print("All tests passed!")
