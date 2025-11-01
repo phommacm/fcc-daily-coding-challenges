@@ -48,3 +48,12 @@ def spookify(boo: str) -> str:
             result.append(char)
 
     return "".join(result)
+
+if __name__ == "__main__":
+    assert spookify("hello_world") == "HeLlO~wOrLd"
+    assert spookify("Spooky_Case") == "SpOoKy~CaSe"
+    assert spookify("TRICK-or-TREAT") == "TrIcK~oR~tReAt"
+    assert spookify("c_a-n_d-y_-b-o_w_l") == "C~a~N~d~Y~~b~O~w~L"
+    assert spookify("thE_hAUntEd-hOUsE-Is-" \
+    "fUll_Of_ghOsts") == "ThE~hAuNtEd~HoUsE~iS~fUlL~oF~gHoStS"
+    print("All tests passed!")
