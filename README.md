@@ -34,6 +34,7 @@ scripts/
 - [2025-10-13: 24 to 12](scripts/2025-10-13_24_to_12/README.md)
 - [2025-10-15: HTML Tag Stripper](scripts/2025-10-15_html_tag_stripper/README.md)
 - [2025-10-17: Credit Card Masker](scripts/2025-10-17_credit_card_masker/README.md)
+- [2025-10-31: SpOoKy~CaSe](scripts/2025-10-31_spooky_case/README.md)
 <!-- ➕ Add new challenges below as you go -->
 <!-- - [YYYY-MM-DD: Challenge Title](scripts/YYYY-MM-DD-challenge_title/README.md) -->
 
